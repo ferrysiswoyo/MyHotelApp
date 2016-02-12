@@ -46,6 +46,36 @@
                 android:textStyle="normal"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"
+                android:text="Cuaca saat ini"
+                android:layout_marginBottom="13dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/img_weather_icon"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_cloud_queue"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_detail_weather"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:text="CURRENT WEATHER"
+                    android:layout_gravity="center_vertical"
+                    android:lineSpacingMultiplier="1"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
                 android:text="harga"
                 android:layout_marginBottom="13dp"/>
             <TextView
